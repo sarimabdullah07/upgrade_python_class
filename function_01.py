@@ -11,3 +11,8 @@ def amount_discount(price,qty):
 a=amount_discount(2000,10)
 print(a)
 
+
+def sum(a,b):
+    c=a+b
+    print(c)
+sum(2,3)
