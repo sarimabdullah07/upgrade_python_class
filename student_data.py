@@ -1,7 +1,7 @@
 '''
 Q: Create a student result, if marks of a student is passed in the form of
     list of dictionaries [{"A":87,"B":92}] the function should calculate total
-    marks and percentage of each student and appennd it into respective dictionaries like 
+    marks and percentage of each student and append it into respective dictionaries like 
     [{"name":"A","marks":[97,95,93],"total":285,"percentage":95.0}].finally
     retrun the average of percentages to the calling scope.
 '''
