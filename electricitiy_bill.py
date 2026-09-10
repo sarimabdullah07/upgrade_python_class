@@ -1,3 +1,5 @@
+Q: Create a user defined function  to perfom following
+
 def bill(consumers):
     Dict=dict()
     for i in consumers:
