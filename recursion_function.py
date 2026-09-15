@@ -10,3 +10,13 @@ def fibonacci(n):
 l=int(input("Enter number of terms for fibonacci series: "))
 for i in range(l):
     print(fibonacci(i),end=" ")
+
+#factorial of a number
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        factorial=fact(n-1)*n
+    return factorial
+j=int(input("\nEnter a number: "))
+print("factorial of",j,"=",fact(j))
